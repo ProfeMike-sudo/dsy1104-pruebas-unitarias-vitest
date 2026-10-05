@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mouse Inalámbrico",
+    "precio": 15990,
+    "categoria": "Accesorios",
+    "stock": 12,
+    "descripcion": "Mouse óptico inalámbrico de 1600 DPI, con receptor USB y batería de larga duración.",
+    "imagen": "/img/accesorios.svg",
+    "precioAnterior": 19990
+  },
+  {
+    "id": 2,
+    "nombre": "Teclado Mecánico",
+    "precio": 45990,
+    "categoria": "Accesorios",
+    "stock": 5,
+    "descripcion": "Teclado mecánico con switches azules, retroiluminación y cable USB desmontable.",
+    "imagen": "/img/accesorios.svg",
+    "precioAnterior": null
+  },
+  {
+    "id": 3,
+    "nombre": "Audífonos Bluetooth",
+    "precio": 29990,
+    "categoria": "Audio",
+    "stock": 0,
+    "descripcion": "Audífonos inalámbricos con cancelación de ruido básica y hasta 20 horas de batería.",
+    "imagen": "/img/audio.svg",
+    "precioAnterior": null
+  },
+  {
+    "id": 7,
+    "nombre": "Parlante Bluetooth",
+    "precio": 34990,
+    "categoria": "Audio",
+    "stock": 9,
+    "descripcion": "Parlante portátil resistente al agua, con 10 horas de batería.",
+    "imagen": "/img/audio.svg",
+    "precioAnterior": null
+  },
+  {
+    "id": 4,
+    "nombre": "Monitor 24\" Full HD",
+    "precio": 119990,
+    "categoria": "Monitores",
+    "stock": 8,
+    "descripcion": "Monitor de 24 pulgadas con panel IPS, resolución 1920x1080 y 75 Hz.",
+    "imagen": "/img/monitores.svg",
+    "precioAnterior": 139990
+  },
+  {
+    "id": 9,
+    "nombre": "Monitor 27\" 2K",
+    "precio": 189990,
+    "categoria": "Monitores",
+    "stock": 3,
+    "descripcion": "Monitor de 27 pulgadas, resolución 2560x1440 y 144 Hz.",
+    "imagen": "/img/monitores.svg",
+    "precioAnterior": null
+  },
+  {
+    "id": 10,
+    "nombre": "SSD 1 TB NVMe",
+    "precio": 64990,
+    "categoria": "Almacenamiento",
+    "stock": 15,
+    "descripcion": "Disco de estado sólido NVMe de 1 TB, velocidad de lectura hasta 3500 MB/s.",
+    "imagen": "/img/accesorios.svg",
+    "precioAnterior": 74990
+  },
+  {
+    "id": 12,
+    "nombre": "Pendrive 128 GB",
+    "precio": 8990,
+    "categoria": "Almacenamiento",
+    "stock": 30,
+    "descripcion": "Pendrive USB 3.0 de 128 GB.",
+    "imagen": "/img/accesorios.svg",
+    "precioAnterior": null
+  }
+]

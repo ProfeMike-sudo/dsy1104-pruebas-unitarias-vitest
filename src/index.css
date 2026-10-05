@@ -1,0 +1,68 @@
+/* Estilos propios de la tienda. Se cargan DESPUÉS de Bootstrap (ver main.jsx). */
+:root {
+  --marca: #ff6a13;
+  --marca-oscura: #d9530a;
+  --azul: #0c2340;
+  --fondo: #f3f4f6;
+}
+
+body { background: var(--fondo); }
+
+/* Botón principal de Bootstrap con el color de la tienda */
+.btn-primary {
+  --bs-btn-bg: var(--marca);
+  --bs-btn-border-color: var(--marca);
+  --bs-btn-hover-bg: var(--marca-oscura);
+  --bs-btn-hover-border-color: var(--marca-oscura);
+  --bs-btn-active-bg: var(--marca-oscura);
+  --bs-btn-active-border-color: var(--marca-oscura);
+  --bs-btn-disabled-bg: var(--marca);
+  --bs-btn-disabled-border-color: var(--marca);
+}
+.text-bg-primary { background-color: var(--marca) !important; }
+
+/* Cabecera */
+.tienda-topbar { background: #fff; border-bottom: 1px solid #e5e7eb; }
+.tienda-logo { font-weight: 800; color: var(--azul); }
+.tienda-logo span { color: var(--marca); }
+.buscador { display: flex; gap: 0; }
+.buscador .form-control { border-radius: 999px 0 0 999px; }
+.buscador .btn { border-radius: 0 999px 999px 0; }
+.tienda-categorias { background: #fff; border-bottom: 3px solid var(--marca); overflow-x: auto; }
+.tienda-categorias .nav-link { color: var(--azul); font-weight: 500; white-space: nowrap; }
+.tienda-categorias .nav-link:hover { color: var(--marca); }
+
+.tienda-main { padding-top: 1.5rem; padding-bottom: 2.5rem; min-height: 60vh; }
+
+/* Portada */
+.portada { background: linear-gradient(120deg, #0c2340 0%, #16345f 60%, #1f4a86 100%); color: #fff; border-radius: 1rem; padding: 2rem; }
+.portada__etiqueta { text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; opacity: .8; margin-bottom: .25rem; }
+.portada__titulo { font-weight: 800; font-size: clamp(1.8rem, 4vw, 2.8rem); }
+.portada__titulo span { color: var(--marca); }
+.portada__dato { background: #fff; color: var(--azul); border-radius: .75rem; padding: .75rem 1rem; font-size: .9rem; height: 100%; }
+
+/* Tarjetas de producto */
+.card-producto { border: 0; border-radius: .75rem; box-shadow: 0 1px 3px rgba(0, 0, 0, .08); transition: box-shadow .2s, transform .2s; }
+.card-producto:hover { box-shadow: 0 6px 18px rgba(0, 0, 0, .12); transform: translateY(-2px); }
+.card-producto__imagen { padding: 1rem 1rem 0; max-height: 190px; object-fit: contain; }
+.precio__actual { font-size: 1.35rem; font-weight: 800; color: var(--azul); }
+.precio__anterior { color: #6b7280; font-size: .9rem; }
+
+/* Filtros */
+.filtros { background: #fff; border-radius: .75rem; padding: 1rem; }
+.filtros__opcion { background: none; border: 0; padding: .25rem 0; width: 100%; text-align: left; color: var(--azul); }
+.filtros__opcion:hover { color: var(--marca); }
+.filtros__opcion.is-activa { font-weight: 700; color: var(--marca); }
+
+.resumen { background: #fff; border-radius: .75rem; padding: 1rem 1.25rem; }
+.detalle { background: #fff; border-radius: .75rem; padding: 1.5rem; }
+
+/* Pie de página */
+.tienda-footer { background: var(--azul); color: rgba(255, 255, 255, .8); padding: 1rem 0; font-size: .9rem; }
+.tienda-footer a { color: #fff; }
+
+/* Panel de administración */
+.admin-menu { background: var(--azul); min-height: 100vh; }
+.admin-menu__titulo { color: #fff; font-weight: 700; }
+.admin-menu .nav-link { color: rgba(255, 255, 255, .85); padding-left: 0; }
+.admin-menu .nav-link:hover { color: var(--marca); }
